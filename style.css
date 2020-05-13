@@ -1,0 +1,215 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    padding: 100px;
+    background-image: url(img/clouds.png);
+    background-size: 100%;
+}
+
+main{
+    border: 3px solid #f3f3f3;
+    width: 650px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+section{
+    
+    
+}
+
+#informations{
+    background: linear-gradient(180deg, rgba(45,70,165,1) 0%, rgba(50,84,167,1) 31%, rgba(69,138,175,1) 100%);
+    height: 200px;
+    padding: 0 10px 10px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.overview{
+    display: flex;
+    align-items: center;
+    
+}
+
+.temp_block{
+    flex: 1;
+    height: 100%;
+    border-radius: 5px;
+    
+    padding: 5px;
+    color: white;
+}
+
+#temp_feels_like{
+    font-size: 70px;
+    position: relative;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.details{
+    text-align: center;
+    color: white;
+    flex: 1;
+    border: 1px solid white;
+}
+
+#cityName{
+    margin-bottom: 5px;
+    color:  white;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+}
+
+#textBoxTest{
+    border: none;
+    text-align: center;
+    background: none;
+    margin: auto;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+#informations ul{
+    list-style: none;
+}
+
+hr{
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+
+#month{
+    background:  #f3f3f3;
+    color: #4a4a4a;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+#prevision{
+    display: flex;
+    
+}
+
+.joursPrevisions{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.joursPrevisions:nth-child(1){
+    background: #1F4371;
+    border-bottom-left-radius: 5px;
+}
+
+.joursPrevisions:nth-child(2){
+    background: #2962A9;
+}
+
+.joursPrevisions:nth-child(3){
+    background: #347BD5;
+}
+
+.joursPrevisions:nth-child(4){
+    background: #609AE1;
+}
+
+.joursPrevisions:nth-child(5){
+    background: #76A7E3;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.block-search{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #4a4a4a;
+    /* height: 30px; */
+    width: 300px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.block-search input{
+    background: none;
+    height: 26px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+.block-search button{
+    flex: 1;
+    background: #5d5d5d ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#credits{
+    margin-left: 47%;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+}
